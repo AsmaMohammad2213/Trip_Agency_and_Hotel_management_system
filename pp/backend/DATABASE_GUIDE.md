@@ -11,7 +11,8 @@ Create a `.env` file in the backend root directory:
 ```env
 MONGODB_URI=mongodb://localhost:27017/travel-agency
 # OR for MongoDB Atlas:
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/travel-agency
+# MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/travel-agency
+
 PORT=5000
 JWT_SECRET=your-secret-key-here
 ```
