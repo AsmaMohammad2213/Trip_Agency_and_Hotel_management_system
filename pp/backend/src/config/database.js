@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Use MongoDB Atlas free cluster instead of local MongoDB
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://travelease:travelease123@cluster0.mongodb.net/travelease?retryWrites=true&w=majority';
+const MONGODB_URI = process.env.MONGODB_URI || 'CONNECTION_STRING';
 
 const connectDB = async () => {
   try {
