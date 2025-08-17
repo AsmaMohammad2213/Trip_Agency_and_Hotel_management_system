@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard Access</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .method {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .method h3 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .url {
+            background: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            margin: 10px 0;
+            word-break: break-all;
+        }
+        .button {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 5px;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+        .success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .steps {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .steps ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Admin Dashboard Access</h1>
+        
+        <div class="success">
+            <strong>✅ Both servers are running!</strong><br>
+            Backend: http://localhost:5000<br>
+            Frontend: http://localhost:5173
+        </div>
+
+        <div class="method">
+            <h3>Method 1: Direct Admin Dashboard (Recommended)</h3>
+            <div class="url">http://localhost:5173/admin/dashboard</div>
+            <div class="steps">
+                <ol>
+                    <li>Click the link below</li>
+                    <li>You'll see the admin dashboard immediately</li>
+                    <li>Full admin interface with all features</li>
+                </ol>
+            </div>
+            <a href="http://localhost:5173/admin/dashboard" class="button" target="_blank">Open Admin Dashboard</a>
+        </div>
+
+        <div class="method">
+            <h3>Method 2: Test Page</h3>
+            <div class="url">http://localhost:5173/test-admin</div>
+            <div class="steps">
+                <ol>
+                    <li>Click the link below</li>
+                    <li>Click "Test Admin Login & Dashboard"</li>
+                    <li>You'll be automatically redirected to the dashboard</li>
+                </ol>
+            </div>
+            <a href="http://localhost:5173/test-admin" class="button" target="_blank">Open Test Page</a>
+        </div>
+
+        <div class="method">
+            <h3>Method 3: Direct Login</h3>
+            <div class="url">http://localhost:5173/admin/login</div>
+            <div class="steps">
+                <ol>
+                    <li>Click the link below</li>
+                    <li>Login with: admin@example.com / admin123</li>
+                    <li>You'll be redirected to the dashboard</li>
+                </ol>
+            </div>
+            <a href="http://localhost:5173/admin/login" class="button" target="_blank">Open Login Page</a>
+        </div>
+
+        <div class="method">
+            <h3>Method 4: Simple Test</h3>
+            <div class="url">http://localhost:5173/admin-test</div>
+            <div class="steps">
+                <ol>
+                    <li>Click the link below</li>
+                    <li>Click "Test Backend Connection"</li>
+                    <li>Then click "Go to Full Dashboard"</li>
+                </ol>
+            </div>
+            <a href="http://localhost:5173/admin-test" class="button" target="_blank">Open Simple Test</a>
+        </div>
+
+        <div class="warning">
+            <strong>🔧 If you see a blank page:</strong>
+            <div class="steps">
+                <ol>
+                    <li>Press F12 to open browser dev tools</li>
+                    <li>Go to Console tab</li>
+                    <li>Look for any red error messages</li>
+                    <li>Try hard refresh: Ctrl + Shift + R</li>
+                    <li>Clear browser cache or try incognito mode</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="method">
+            <h3>Admin Dashboard Features</h3>
+            <ul>
+                <li><strong>Overview:</strong> Statistics, revenue, booking status</li>
+                <li><strong>Hotels:</strong> Manage hotel listings with images</li>
+                <li><strong>Destinations:</strong> Manage travel destinations</li>
+                <li><strong>Bookings:</strong> View and manage all bookings</li>
+                <li><strong>Users:</strong> Manage user accounts</li>
+            </ul>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <p><strong>🎯 Try Method 1 first - it's the easiest way to access the admin dashboard!</strong></p>
+        </div>
+    </div>
+</body>
+</html> 
